@@ -1,0 +1,12 @@
+Retrieval-Augmented Generation (RAG) 
+    is an artificial intelligence technique that improves large language model (LLM) responses by fetching relevant data from an external knowledge base before generating an answer
+    How RAG Works:
+    Ingestion: Documents or data sources are broken into smaller pieces called chunks and converted into numerical vectors using embedding models.
+    Retrieval: A user query is turned into a vector, and a Pinecone or similar vector database performs a semantic similarity search to find the most relevant data chunks.
+    Augmentation: The system combines the user query with the retrieved context into a single enhanced prompt.
+    Generation: The LLM uses this enriched context to write an accurate, grounded response
+    Why Use RAG?
+    Reduces Hallucinations: Grounds AI answers in verified, real-world data instead of relying solely on memorized parameters.
+    No Retraining Needed: Connects private company documents, policies, or live databases to public models cheaply and quickly.
+    Up-to-Date Context: Keeps output fresh by referencing frequently updated external files
+    

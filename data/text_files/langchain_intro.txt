@@ -1,0 +1,9 @@
+LangChain is an open-source framework designed to simplify building applications with
+     large language models (LLMs) by connecting them to external data, memory, and tools
+    Core Problems LangChain SolvesNo memory: Plain LLMs treat every prompt as a new interaction.
+     LangChain adds persistent memory to track conversation history.
+     No external data: Models lack access to private documents or live info.
+      LangChain connects models to vector databases and files via Retrieval-Augmented Generation (RAG).
+      No real-world actions: Standard models only output text. 
+      LangChain allows models to use external APIs, web search, and tools.
+    
